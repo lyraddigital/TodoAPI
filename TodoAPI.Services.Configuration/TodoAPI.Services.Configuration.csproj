@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoAPI.Services.Foundation\TodoAPI.Services.Foundation.csproj" />
+    <ProjectReference Include="..\TodoAPI.Services.Core\TodoAPI.Services.Core.csproj" />
+    <ProjectReference Include="..\TodoAPI.Repository.Configuration\TodoAPI.Repository.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
+  </ItemGroup>
+</Project>
